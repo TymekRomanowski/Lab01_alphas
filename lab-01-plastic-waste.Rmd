@@ -42,10 +42,18 @@ ggplot(data = plastic_waste,
 
 ### Exercise 4
 
-*Remove this text, and add your answer for Exercise 4 here.*
+*Violin plot gives approximate visualisation of the density of each individual variable, the boxplot only generally gives an idea of where the highest peak and median of the data is .*
 
 ```{r plastic-waste-violin}
-# remove this comment and add the code for Exercise 4 here
+ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_violin()
+
+ggplot(data = plastic_waste, 
+       mapping = aes(x = continent, 
+                     y = plastic_waste_per_cap)) +
+  geom_boxplot()
 ```
 
 ### Exercise 5
