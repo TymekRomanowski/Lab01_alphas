@@ -19,7 +19,7 @@ plastic_waste <- read_csv("data/plastic-waste.csv")
 
 ### Exercise 1
 
-*As expected the highest plastic waste per capita is in Europe and the lowest in South America, it is beacause of the population differences and development of the continents.*
+*As expected the highest plastic waste per capita is in Europe and the lowest in South America, it is because of the population differences and development of the continents.*
 
 ```{r plastic-waste-continent}
 ggplot(data = plastic_waste, aes(x = plastic_waste_per_cap)) +
