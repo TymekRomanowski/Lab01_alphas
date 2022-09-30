@@ -38,7 +38,7 @@ ggplot(data = plastic_waste,
 
 ### Exercise 3
 
-*Remove this text, and add your answer for Exercise 3 here.*
+*Colour and fill mappings are globally defined so that they are applied by default to any geom functions. Alpha is mapped locally so that it only applies to that specific geom_density function, and is not global. *
 
 ### Exercise 4
 
