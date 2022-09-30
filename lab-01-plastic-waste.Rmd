@@ -61,7 +61,8 @@ ggplot(data = plastic_waste,
 *Remove this text, and add your answer for Exercise 5 here.*
 
 ```{r plastic-waste-mismanaged}
-# remove this comment and add the code for Exercise 5 here
+ggplot(data = plastic_waste) +
+  geom_point(mapping = aes(x = plastic_waste, y = mismanaged_plastic_waste))
 ```
 
 ### Exercise 6
